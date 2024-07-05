@@ -36,7 +36,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/bumiayuvpn/bumiayuvpn/main/Cdy/menu.zip
+    wget https://raw.githubusercontent.com/Nelih80/bumiayuvpn/main/Cdy/menu.zip
     wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/Nelih80/bumiayuvpn/main/Enc/encrypt" ; chmod +x /usr/bin/enc
     7z x -pBumiAyuVpn12BAV menu.zip
     chmod +x menu/*
@@ -57,7 +57,7 @@ res1() {
 netfilter-persistent
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " \e[1;97;101m            UPDATE SCRIPT           \e[0m"
+echo -e "\e[1;97;101m            UPDATE SCRIPT             \e[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 echo -e "  \033[1;91m update script service\033[1;37m"
