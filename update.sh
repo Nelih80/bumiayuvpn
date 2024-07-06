@@ -57,10 +57,10 @@ res1() {
 netfilter-persistent
 clear
 echo -e "\033[92;1m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\e[92;1;101m             UPDATE SCRIPT             \e[0m"
+echo -e "\e[92;1;104m             UPDATE SCRIPT             \e[0m"
 echo -e "\033[92;1m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
-echo -e "  \033[1;33m update script service\033[1;37m"
+echo -e "  \033[35;1m update script service\033[1;37m"
 fun_bar 'res1'
 echo -e "\033[92;1m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
