@@ -28,7 +28,7 @@ clear
 clear && clear && clear
 clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "\033[96;1m               WELCOME TO SCRIPT JS TUNNELING                \033[0m"
+echo -e "\033[96;1m              WELCOME TO SCRIPT JS TUNNELING                \033[0m"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 3
@@ -244,7 +244,7 @@ clear
 echo ""
 echo ""
 echo -e "   \e[1;36m_______________________________$NC"
-echo -e "   \e[1;32m       CHANGES DOMAIN $NC"
+echo -e "   \e[1;32m      CHANGES DOMAIN $NC"
 echo -e "   \e[1;36m_______________________________$NC"
 echo -e ""
 read -p "   INPUT YOUR DOMAIN :   " host1
