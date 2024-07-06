@@ -7,7 +7,7 @@ export LC_CTYPE='en_US.utf8'
 # // Export Color & Information
 export RED='\033[0;31m'
 export GREEN='\033[0;32m'
-export YELLOW='\033[0;33m'
+export YELLOW='\033[1;33m'
 export BLUE='\033[0;34m'
 export PURPLE='\033[0;35m'
 export CYAN='\033[96;1m'
@@ -274,7 +274,7 @@ menu
 
 clear
 echo -e "${CYAN}╭═══════════════════════════════════════════════════╮${NC}"
-echo -e "${CYAN}│ ${NC}${YELLOW}               ${YELLOW}• NOOBZ PANEL MENU •            ${NC}${CYAN} │ $NC"
+echo -e "${CYAN}│ ${NC}${YELLOW}               ${LIME}• NOOBZ PANEL MENU •              ${NC}${CYAN} │ $NC"
 echo -e "${CYAN}╰═══════════════════════════════════════════════════╯${NC}"
 echo -e "${CYAN}╭═══════════════════════════════════════════════════╮${NC}"
 echo -e "${CYAN}│ $NC  ${YELLOW}[${YELLOW}01${YELLOW}]${NC} ${LIME}• ${LIME}ADD AKUN${NC}      ${YELLOW}[${YELLOW}04${YELLOW}]${NC} ${LIME}• ${LIME}DELETE USER${NC}   ${LIME} $NC"
@@ -282,8 +282,8 @@ echo -e "${CYAN}│ $NC  ${YELLOW}[${YELLOW}02${YELLOW}]${NC} ${LIME}• ${LIME}
 echo -e "${CYAN}│ $NC  ${YELLOW}[${YELLOW}03${YELLOW}]${NC} ${LIME}• ${LIME}RENEW AKUN${NC}    ${YELLOW}[${YELLOW}06${YELLOW}]${NC} ${LIME}• ${LIME}UNLOCKED USER${NC}    ${LIME} $NC"
 echo -e "${CYAN}│ $NC  ${YELLOW}[${YELLOW}00${YELLOW}]${NC} ${LIME}• ${LIME}GO BACK${NC}       ${YELLOW}[${YELLOW}07${YELLOW}]${NC} ${LIME}• ${LIME}REMOVE ALL USER${NC}    ${LIME} $NC"
 echo -e "${CYAN}╰═══════════════════════════════════════════════════╯${NC}"
-echo -e "${CYAN}╭═════════════════════ • ${YELLOW}BY${NC}${CYAN} • ══════════════════════╮${NC}"
-echo -e "${CYAN}${NC}          ${YELLOW}         • $nama •                 ${CYAN} $NC"
+echo -e "${CYAN}╭═════════════════════ • ${LIME}BY${NC}${CYAN} • ══════════════════════╮${NC}"
+echo -e "${CYAN}${NC}          ${LIME}         • $nama •                 ${CYAN} $NC"
 echo -e "${CYAN}╰═══════════════════════════════════════════════════╯${NC}"
 echo -e ""
 echo -ne " ${LIME}Select menu ${LIME}: ${LIME}"; read opt
