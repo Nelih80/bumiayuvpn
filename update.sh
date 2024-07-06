@@ -30,7 +30,7 @@ fun_bar() {
         sleep 1s
         tput cuu1
         tput dl1
-        echo -ne "  \033[1;33mPlease Wait Loading \033[1;32m- \033[1;33m["
+        echo -ne "  \033[1;33mPlease Wait Loading \033[1;33m- \033[1;33m["
     done
     echo -e "\033[1;33m]\033[1;37m -\033[1;32m OK !\033[1;37m"
     tput cnorm
