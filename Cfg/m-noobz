@@ -346,8 +346,8 @@ echo -e "$CYAN│ ${NC}${LIME}             ${LIME}• MEMBER  NOOBZ •         
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${LIME}"
 noobzvpns --info-all-user | awk '/^\s*\+.*-> active/ {gsub(/(issued\(yyyymmdd\)|hash_key): [0-9a-f]+/, ""); print; getline; print; getline; getline; getline; print; print "═══════════════════"}'
 
-echo -e "$CYAN╭══════════════════════ • ${LIME}BY${NC}${LIME} • $CYAN═══════════════════════╮${NC}"
-echo -e "$CYAN${NC}              ${LIME}        • JS TUNNELING •          $CYAN $NC"
+echo -e "$CYAN╭══════════════════════ • ${LIME}BY${NC}${LIME} • ═══════════════════════╮${CYAN}"
+echo -e "$CYAN${NC}              ${LIME}        • JS TUNNELING •          $CYAN $LIME"
 echo -e "$CYAN╰═════════════════════════════════════════════════════╯${LIME}"
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
@@ -399,7 +399,7 @@ fi
 
 clear
 echo -e "$CYAN╭═══════════════════════════════════════════════════╮${NC}"
-echo -e "$CYAN│ ${NC}${LIME}             ${RED}• REMOVE  NOOBZ •                   ${NC}$CYAN │ $NC"
+echo -e "$CYAN│ ${NC}${LIME}             ${LIME}• REMOVE  NOOBZ •                   ${NC}$CYAN │ $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${LIME}"
 echo "USERNAME: $user"
 echo "unlocked success!!"
@@ -415,7 +415,7 @@ menu
 
 clear
 echo -e "$CYAN╭═══════════════════════════════════════════════════╮${NC}"
-echo -e "$CYAN│ ${NC}${LIME}                ${LIME} • NOOBZ PANEL MENU •            ${NC}$CYAN │ $NC"
+echo -e "$CYAN│ ${NC}${LIME}             ${LIME} • NOOBZ PANEL MENU •            ${NC}$CYAN │ $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${NC}"
 echo -e "$CYAN╭═══════════════════════════════════════════════════╮${NC}"
 echo -e "$CYAN│ $NC  ${YELLOW}[${YELLOW}01${YELLOW}]${NC} ${LIME}• ${LIME}ADD AKUN${NC}      ${YELLOW}[${YELLOW}04${YELLOW}]${NC} ${LIME}• ${LIME}DELETE USER${NC}   $LIME $NC"
@@ -423,8 +423,8 @@ echo -e "$CYAN│ $NC  ${YELLOW}[${YELLOW}02${YELLOW}]${NC} ${LIME}• ${LIME}SH
 echo -e "$CYAN│ $NC  ${YELLOW}[${YELLOW}03${YELLOW}]${NC} ${LIME}• ${LIME}RENEW AKUN${NC}    ${YELLOW}[${YELLOW}06${YELLOW}]${NC} ${LIME}• ${LIME}UNLOCKED USER${NC}    $LIME $NC"
 echo -e "$CYAN│ $NC  ${YELLOW}[${YELLOW}00${YELLOW}]${NC} ${LIME}• ${LIME}GO BACK${NC}       ${YELLOW}[${YELLOW}07${YELLOW}]${NC} ${LIME}• ${LIME}REMOVE ALL USER${NC}    $LIME $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${NC}"
-echo -e "$CYAN╭═════════════════════ ${LIME}• ${LIME}BY${NC}${LIME} • $CYAN══════════════════════╮${CYAN}"
-echo -e "$CYAN${NC}               ${LIME}       • JS TUNNELING •         $CYAN $NC"
+echo -e "$CYAN╭═════════════════════ ${LIME}• ${LIME}BY${NC}${LIME} • ══════════════════════╮${CYAN}"
+echo -e "$CYAN${NC}               ${LIME}     • JS TUNNELING •       $LIME $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${LIME}"
 echo -e ""
 echo -ne " ${LIME}Select menu ${LIME}: ${LIME}"; read opt
