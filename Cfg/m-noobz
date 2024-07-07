@@ -423,7 +423,7 @@ echo -e "$CYAN│ $NC  ${YELLOW}[${YELLOW}02${YELLOW}]${NC} ${LIME}• ${LIME}SH
 echo -e "$CYAN│ $NC  ${YELLOW}[${YELLOW}03${YELLOW}]${NC} ${LIME}• ${LIME}RENEW AKUN${NC}    ${YELLOW}[${YELLOW}06${YELLOW}]${NC} ${LIME}• ${LIME}UNLOCKED USER${NC}    $LIME $NC"
 echo -e "$CYAN│ $NC  ${YELLOW}[${YELLOW}00${YELLOW}]${NC} ${LIME}• ${LIME}GO BACK${NC}       ${YELLOW}[${YELLOW}07${YELLOW}]${NC} ${LIME}• ${LIME}REMOVE ALL USER${NC}    $LIME $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${NC}"
-echo -e "$CYAN╭═════════════════════ ${LIME}• ${LIME}BY${LIME}${LIME} • $CYAN══════════════════════╮${CYAN}"
+echo -e "$CYAN╭═════════════════════ ${LIME}• ${LIME}BY${LIME}${NC} • ${CYAN} ══════════════════════╮${CYAN}"
 echo -e "$CYAN${NC}               ${LIME}     • JS TUNNELING •       $LIME $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${LIME}"
 echo -e ""
