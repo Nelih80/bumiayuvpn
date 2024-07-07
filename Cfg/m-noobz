@@ -8,7 +8,7 @@ export LC_CTYPE='en_US.utf8'
 # // Export Color & Information
 export RED='\033[0;31m'
 export LIME='\e[92;1m'
-export YELLOW='\033[0;33m'
+export YELLOW='\033[1;33m'
 export BLUE='\033[0;34m'
 export PURPLE='\033[0;35m'
 export CYAN='\033[0;36m'
@@ -106,7 +106,7 @@ EB4cHVzsbaIHhGlETDO+Ck22fVlOm01SEuUAUWIilUiZj3ho/GZ5QY+Fdur7EGcHtimx0bRpPkPYSUVl
 EMLBHFZfH/pBoPKJNWEVgBpE6A5ZeWbnzpI4w7UFL3EEDLbefWsxq308yXcLl9+eH0CAwm6hLFDAIEZtscw6w090SyqPTK1iZxg/XVhQupV+3gkyTy/t3OeJcEGNfgOGuBGi5HVxQNiBrKIo8gQnVnR5oDVf80HbwVUHYNiayk9B8cqGRlr8bHTMs6GcevwhgWRUhOYitN20pcF91SXkQd86eIFfMVVFpM2MkRqOiL4+ZWS1GrH+r4YVC69Q50xyZAfUm+Ps17bY3hH7qcha1o2OD8RhjYqGnRzJDJEh7tfnDG6GyLgKPk+A8wxLkd+oTDKOMMsEyFA6x2NolzEYNYIsn5C2QBlEm5NAb8RJmCkFVL+L+ekiUp0NvkIRSjhVbhcl/n1CkBWkcOPYLCwyIagNJrCoD6vkoGzprqS3IAbj7RkOQqmLquAlfeEgDk6UJao/BZaoZeeIlfhDgfATDZiooLECs/h+0/2Vff1E5wnoHovDDo3FZW8xbxXXazHWdYWg8BOU3sATfhnbZd6uWsPmAg6r3jGynibibNbO1r/n88vbvB8Au319VN8KRLI4FhPc/Z9KG+njTJkmiLoG33SbPU7fF8AP
 
 ◇━━━━━━━━━━━━━━━━━◇
-     • JABAR SHOP • 
+     • JS TUNNELING • 
 ◇━━━━━━━━━━━━━━━━━◇
 END
 if [[ -e /etc/noobz ]]; then
@@ -162,7 +162,7 @@ tcp_ssl port : 8443
 <code>EMLBHFZfH/pBoPKJNWEVgBpE6A5ZeWbnzpI4w7UFL3EEDLbefWsxq308yXcLl9+eH0CAwm6hLFDAIEZtscw6w090SyqPTK1iZxg/XVhQupV+3gkyTy/t3OeJcEGNfgOGuBGi5HVxQNiBrKIo8gQnVnR5oDVf80HbwVUHYNiayk9B8cqGRlr8bHTMs6GcevwhgWRUhOYitN20pcF91SXkQd86eIFfMVVFpM2MkRqOiL4+ZWS1GrH+r4YVC69Q50xyZAfUm+Ps17bY3hH7qcha1o2OD8RhjYqGnRzJDJEh7tfnDG6GyLgKPk+A8wxLkd+oTDKOMMsEyFA6x2NolzEYNYIsn5C2QBlEm5NAb8RJmCkFVL+L+ekiUp0NvkIRSjhVbhcl/n1CkBWkcOPYLCwyIagNJrCoD6vkoGzprqS3IAbj7RkOQqmLquAlfeEgDk6UJao/BZaoZeeIlfhDgfATDZiooLECs/h+0/2Vff1E5wnoHovDDo3FZW8xbxXXazHWdYWg8BOU3sATfhnbZd6uWsPmAg6r3jGynibibNbO1r/n88vbvB8Au319VN8KRLI4FhPc/Z9KG+njTJkmiLoG33SbPU7fF8AP</code>
 
 ◇━━━━━━━━━━━━━━━━━◇
-      • JABAR SHOP • 
+      • JS TUNNELING • 
 ◇━━━━━━━━━━━━━━━━━◇
 "
 fi
@@ -212,7 +212,7 @@ echo "" | tee -a /etc/xray/noobz/akun/log-create-${user}.log
 echo -e "EMLBHFZfH/pBoPKJNWEVgBpE6A5ZeWbnzpI4w7UFL3EEDLbefWsxq308yXcLl9+eH0CAwm6hLFDAIEZtscw6w090SyqPTK1iZxg/XVhQupV+3gkyTy/t3OeJcEGNfgOGuBGi5HVxQNiBrKIo8gQnVnR5oDVf80HbwVUHYNiayk9B8cqGRlr8bHTMs6GcevwhgWRUhOYitN20pcF91SXkQd86eIFfMVVFpM2MkRqOiL4+ZWS1GrH+r4YVC69Q50xyZAfUm+Ps17bY3hH7qcha1o2OD8RhjYqGnRzJDJEh7tfnDG6GyLgKPk+A8wxLkd+oTDKOMMsEyFA6x2NolzEYNYIsn5C2QBlEm5NAb8RJmCkFVL+L+ekiUp0NvkIRSjhVbhcl/n1CkBWkcOPYLCwyIagNJrCoD6vkoGzprqS3IAbj7RkOQqmLquAlfeEgDk6UJao/BZaoZeeIlfhDgfATDZiooLECs/h+0/2Vff1E5wnoHovDDo3FZW8xbxXXazHWdYWg8BOU3sATfhnbZd6uWsPmAg6r3jGynibibNbO1r/n88vbvB8Au319VN8KRLI4FhPc/Z9KG+njTJkmiLoG33SbPU7fF8AP" | tee -a /etc/xray/noobz/akun/log-create-${user}.log
 echo "" | tee -a /etc/xray/noobz/akun/log-create-${user}.log
 echo -e "◇━━━━━━━━━━━━━━━━━◇" | tee -a /etc/xray/noobz/akun/log-create-${user}.log
-echo -e " • JABAR SHOP •" | tee -a /etc/xray/noobz/akun/log-create-${user}.log
+echo -e " • JS TUNNELING •" | tee -a /etc/xray/noobz/akun/log-create-${user}.log
 echo -e "◇━━━━━━━━━━━━━━━━━◇" | tee -a /etc/xray/noobz/akun/log-create-${user}.log
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
@@ -282,7 +282,7 @@ echo "$TEXT" > /etc/notiftele
 bash /etc/tele
 fi
 echo -e "$CYAN╭══════════════════════ • ${LIME}BY${NC}${CYAN} • ═══════════════════════╮${NC}"
-echo -e "$CYAN${NC}            ${LIME}            • JABAR SHOP PREMIUM •                 $LIME $NC"
+echo -e "$CYAN${NC}            ${LIME}               • JS TUNNELING •                 $LIME $NC"
 echo -e "$CYAN╰═════════════════════════════════════════════════════╯${NC}"
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
@@ -304,7 +304,7 @@ echo -e "$CYAN╰═════════════════════
 echo "USERNAME: $user"
 echo "renew success!!"
 echo -e "$CYAN╭══════════════════════ • ${LIME}BY${NC}${CYAN} • ═══════════════════════╮${NC}"
-echo -e "$CYAN${NC}          ${LIME}   • JABAR SHOP PREMIUM •                 $CYAN $NC"
+echo -e "$CYAN${NC}               ${LIME}           • JS TUNNELING •                 $CYAN $NC"
 echo -e "$CYAN╰═════════════════════════════════════════════════════╯${NC}"
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
@@ -327,7 +327,7 @@ echo -e "$CYAN╰═════════════════════
 echo "USERNAME: $user"
 echo "locked success!!"
 echo -e "$CYAN╭══════════════════════ • ${LIME}BY${NC}${CYAN} • ═══════════════════════╮${NC}"
-echo -e "$CYAN${NC}          ${LIME}   • JABAR SHOP PREMIUM •                 $CYAN $NC"
+echo -e "$CYAN${NC}              ${LIME}             • JS TUNNELING •                 $CYAN $NC"
 echo -e "$CYAN╰═════════════════════════════════════════════════════╯${NC}"
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
@@ -347,7 +347,7 @@ echo -e "$CYAN╰═════════════════════
 noobzvpns --info-all-user | awk '/^\s*\+.*-> active/ {gsub(/(issued\(yyyymmdd\)|hash_key): [0-9a-f]+/, ""); print; getline; print; getline; getline; getline; print; print "═══════════════════"}'
 
 echo -e "$CYAN╭══════════════════════ • ${LIME}BY${NC}${CYAN} • ═══════════════════════╮${NC}"
-echo -e "$CYAN${NC}          ${LIME}   • JABAR SHOP PREMIUM •                 $CYAN $NC"
+echo -e "$CYAN${NC}              ${LIME}            • JS TUNNELING •                 $CYAN $NC"
 echo -e "$CYAN╰═════════════════════════════════════════════════════╯${NC}"
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
@@ -370,7 +370,7 @@ echo -e "$CYAN╰═════════════════════
 echo "USERNAME: $user"
 echo "unlocked success!!"
 echo -e "$CYAN╭══════════════════════ • ${LIME}BY${NC}${CYAN} • ═══════════════════════╮${NC}"
-echo -e "$CYAN${NC}          ${LIME}   • JABAR SHOP PREMIUM •                 $CYAN $NC"
+echo -e "$CYAN${NC}               ${LIME}          • JS TUNNELING •                 $CYAN $NC"
 echo -e "$CYAN╰═════════════════════════════════════════════════════╯${NC}"
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
@@ -404,7 +404,7 @@ echo -e "$CYAN╰═════════════════════
 echo "USERNAME: $user"
 echo "unlocked success!!"
 echo -e "$CYAN╭══════════════════════ • ${LIME}BY${NC}${CYAN} • ═══════════════════════╮${NC}"
-echo -e "$CYAN${NC}          ${LIME}   • JABAR SHOP PREMIUM •                 $CYAN $NC"
+echo -e "$CYAN${NC}              ${LIME}             • JS TUNNELING •                 $CYAN $NC"
 echo -e "$CYAN╰═════════════════════════════════════════════════════╯${NC}"
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
@@ -418,13 +418,13 @@ echo -e "$CYAN╭═════════════════════
 echo -e "$CYAN│ ${NC}${LIME}                ${LIME} • NOOBZ PANEL MENU •            ${NC}$CYAN │ $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${NC}"
 echo -e "$CYAN╭═══════════════════════════════════════════════════╮${NC}"
-echo -e "$CYAN│ $NC  ${LIME}[${LIME}01${LIME}]${NC} ${LIME}• ${LIME}ADD AKUN${NC}      ${LIME}[${LIME}04${LIME}]${NC} ${LIME}• ${LIME}DELETE USER${NC}   $LIME $NC"
-echo -e "$CYAN│ $NC  ${LIME}[${LIME}02${LIME}]${NC} ${LIME}• ${LIME}SHOW AKUN${NC}     ${LIME}[${LIME}05${LIME}]${NC} ${LIME}• ${LIME}LOCKED USER${NC}    $LIME $NC"
-echo -e "$CYAN│ $NC  ${LIME}[${LIME}03${LIME}]${NC} ${LIME}• ${LIME}RENEW AKUN${NC}    ${LIME}[${LIME}06${LIME}]${NC} ${LIME}• ${LIME}UNLOCKED USER${NC}    $LIME $NC"
-echo -e "$CYAN│ $NC  ${LIME}[${LIME}00${LIME}]${NC} ${LIME}• ${LIME}GO BACK${NC}       ${LIME}[${LIME}07${LIME}]${NC} ${LIME}• ${LIME}REMOVE ALL USER${NC}    $LIME $NC"
+echo -e "$CYAN│ $NC  ${YELLOW}[${YELLOW}01${YELLOW}]${NC} ${LIME}• ${LIME}ADD AKUN${NC}      ${YELLOW}[${YELLOW}04${YELLOW}]${NC} ${LIME}• ${LIME}DELETE USER${NC}   $LIME $NC"
+echo -e "$CYAN│ $NC  ${YELLOW}[${YELLOW}02${YELLOW}]${NC} ${LIME}• ${LIME}SHOW AKUN${NC}     ${YELLOW}[${YELLOW}05${YELLOW}]${NC} ${LIME}• ${LIME}LOCKED USER${NC}    $LIME $NC"
+echo -e "$CYAN│ $NC  ${YELLOW}[${YELLOW}03${YELLOW}]${NC} ${LIME}• ${LIME}RENEW AKUN${NC}    ${YELLOW}[${YELLOW}06${YELLOW}]${NC} ${LIME}• ${LIME}UNLOCKED USER${NC}    $LIME $NC"
+echo -e "$CYAN│ $NC  ${YELLOW}[${YELLOW}00${YELLOW}]${NC} ${LIME}• ${LIME}GO BACK${NC}       ${YELLOW}[${YELLOW}07${YELLOW}]${NC} ${LIME}• ${LIME}REMOVE ALL USER${NC}    $LIME $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${NC}"
-echo -e "$CYAN╭═════════════════════ ${NC}• ${LIME}BY${NC}${CYAN} • ══════════════════════╮${NC}"
-echo -e "$CYAN${NC}          ${LIME}    • JABAR SHOP PREMIUM •                 $CYAN $NC"
+echo -e "$CYAN╭═════════════════════ ${NC}• ${YELLOW}BY${NC}${CYAN} • ══════════════════════╮${NC}"
+echo -e "$CYAN${NC}               ${YELLOW}              • JS TUNNELING •                  $CYAN $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${NC}"
 echo -e ""
 echo -ne " ${LIME}Select menu ${LIME}: ${LIME}"; read opt
