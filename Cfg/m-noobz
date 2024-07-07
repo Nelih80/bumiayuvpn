@@ -292,18 +292,18 @@ menu
 function renew(){
 clear
 echo -e "$CYAN╭═══════════════════════════════════════════════════╮${NC}"
-echo -e "$CYAN│ ${NC}${LIME}              ${LIME}• RENEW NOOBZ •                    ${NC}$CYAN │ $NC"
+echo -e "$CYAN│ ${NC}${LIME}                ${LIME}• RENEW NOOBZ •                  ${NC}$CYAN │ $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${LIME}"
 read -p "username: " user
 read -p "expired?: " exp
 noobzvpns --renew-user $user --expired-user $user $exp
 clear
 echo -e "$CYAN╭═══════════════════════════════════════════════════╮${NC}"
-echo -e "$CYAN│ ${NC}${LIME}              ${LIME}• RENEW NOOBZ •                    ${NC}$CYAN │ $NC"
+echo -e "$CYAN│ ${NC}${LIME}                ${LIME}• RENEW NOOBZ •                  ${NC}$CYAN │ $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${LIME}"
 echo "USERNAME: $user"
 echo "renew success!!"
-echo -e "$CYAN╭══════════════════════ • ${LIME}BY${NC}${LIME} • $CYAN═══════════════════════╮${NC}"
+echo -e "$CYAN╭══════════════════════ • ${LIME}BY${NC}${LIME} • $CYAN ═══════════════════════╮${NC}"
 echo -e "$CYAN${NC}               ${LIME}      • JS TUNNELING •         $CYAN $NC"
 echo -e "$CYAN╰═════════════════════════════════════════════════════╯${LIME}"
 read -n 1 -s -r -p "Press any key to back on menu"
@@ -328,7 +328,7 @@ echo "USERNAME: $user"
 echo "locked success!!"
 echo -e "$CYAN╭══════════════════════ • ${LIME}BY${NC}${LIME} • $CYAN═══════════════════════╮${NC}"
 echo -e "$CYAN${NC}              ${LIME}         • JS TUNNELING •           $CYAN $NC"
-echo -e "$CYAN╰═════════════════════════════════════════════════════╯${NC}"
+echo -e "$CYAN╰═════════════════════════════════════════════════════╯${LIME}"
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
 }
@@ -342,12 +342,12 @@ function show(){
 
 clear
 echo -e "$CYAN╭═══════════════════════════════════════════════════╮${NC}"
-echo -e "$CYAN│ ${NC}${LIME}             ${LIME}• MEMBER  NOOBZ •                   ${NC}$CYAN │ $NC"
+echo -e "$CYAN│ ${NC}${LIME}               ${LIME}• MEMBER  NOOBZ •                 ${NC}$CYAN │ $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${LIME}"
 noobzvpns --info-all-user | awk '/^\s*\+.*-> active/ {gsub(/(issued\(yyyymmdd\)|hash_key): [0-9a-f]+/, ""); print; getline; print; getline; getline; getline; print; print "═══════════════════"}'
 
-echo -e "$CYAN╭══════════════════════ • ${LIME}BY${NC}${LIME} • ═══════════════════════╮${CYAN}"
-echo -e "$CYAN${NC}              ${LIME}        • JS TUNNELING •          $CYAN $LIME"
+echo -e "$CYAN╭══════════════════════ • ${LIME} BY ${NC} ${CYAN} • ═══════════════════════╮${CYAN}"
+echo -e "$CYAN${NC}              ${LIME}      • JS TUNNELING •          $CYAN $LIME"
 echo -e "$CYAN╰═════════════════════════════════════════════════════╯${LIME}"
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
@@ -423,8 +423,8 @@ echo -e "$CYAN│ $NC  ${YELLOW}[${YELLOW}02${YELLOW}]${NC} ${LIME}• ${LIME}SH
 echo -e "$CYAN│ $NC  ${YELLOW}[${YELLOW}03${YELLOW}]${NC} ${LIME}• ${LIME}RENEW AKUN${NC}    ${YELLOW}[${YELLOW}06${YELLOW}]${NC} ${LIME}• ${LIME}UNLOCKED USER${NC}    $LIME $NC"
 echo -e "$CYAN│ $NC  ${YELLOW}[${YELLOW}00${YELLOW}]${NC} ${LIME}• ${LIME}GO BACK${NC}       ${YELLOW}[${YELLOW}07${YELLOW}]${NC} ${LIME}• ${LIME}REMOVE ALL USER${NC}    $LIME $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${NC}"
-echo -e "$CYAN╭═════════════════════ ${LIME}• ${LIME}BY${LIME}${NC} • ${CYAN} ══════════════════════╮${CYAN}"
-echo -e "$CYAN${NC}               ${LIME}     • JS TUNNELING •       $LIME $NC"
+echo -e "$CYAN╭═════════════════════ ${LIME} • ${LIME} BY ${LIME} • ${CYAN} ══════════════════════╮${CYAN}"
+echo -e "$CYAN${NC}               ${LIME}   • JS TUNNELING •       $LIME $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${LIME}"
 echo -e ""
 echo -ne " ${LIME}Select menu ${LIME}: ${LIME}"; read opt
