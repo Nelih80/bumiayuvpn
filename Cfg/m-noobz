@@ -61,7 +61,7 @@ function create(){
 clear
 
 echo -e "$CYAN╭═════════════════════════════════════════════════╮${NC}"
-echo -e "$CYAN│ ${NC}${LIME}              ${RED}• SSH PANEL MENU •               ${NC}$CYAN │ $NC"
+echo -e "$CYAN│ ${NC}${LIME}              ${LIME}• SSH PANEL MENU •               ${NC}$CYAN │ $NC"
 echo -e "$CYAN╰═════════════════════════════════════════════════╯${NC}"
 read -p "Username: " user
 read -p "Password: " pass
@@ -222,7 +222,7 @@ menu
 function delete(){
 clear
 echo -e "$CYAN╭═══════════════════════════════════════════════════╮${NC}"
-echo -e "$CYAN│ ${NC}${LIME}             ${RED}• DELETE NOOBZ •                   ${NC}$CYAN │ $NC"
+echo -e "$CYAN│ ${NC}${LIME}             ${LIME}• DELETE NOOBZ •                   ${NC}$CYAN │ $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${NC}"
 
 NUMBER_OF_CLIENTS=$(grep -c -E "^### " "/etc/xray/noob")
@@ -256,7 +256,7 @@ systemctl restart noobzvpns
 
 clear
 echo -e "$CYAN╭═══════════════════════════════════════════════════╮${NC}"
-echo -e "$CYAN│ ${NC}${LIME}              ${RED}• DELETE NOOBZ •                   ${NC}$CYAN │ $NC"
+echo -e "$CYAN│ ${NC}${LIME}              ${LIME}• DELETE NOOBZ •                   ${NC}$CYAN │ $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${NC}"
 echo -e ""
 echo -e "$LIME USERNAME $user HAS BEEN DELETE $NC"
@@ -423,7 +423,7 @@ echo -e "$CYAN│ $NC  ${YELLOW}[${YELLOW}02${YELLOW}]${NC} ${LIME}• ${LIME}SH
 echo -e "$CYAN│ $NC  ${YELLOW}[${YELLOW}03${YELLOW}]${NC} ${LIME}• ${LIME}RENEW AKUN${NC}    ${YELLOW}[${YELLOW}06${YELLOW}]${NC} ${LIME}• ${LIME}UNLOCKED USER${NC}    $LIME $NC"
 echo -e "$CYAN│ $NC  ${YELLOW}[${YELLOW}00${YELLOW}]${NC} ${LIME}• ${LIME}GO BACK${NC}       ${YELLOW}[${YELLOW}07${YELLOW}]${NC} ${LIME}• ${LIME}REMOVE ALL USER${NC}    $LIME $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${NC}"
-echo -e "$CYAN╭═════════════════════ ${LIME}• ${LIME}BY${NC}${LIME} • ══════════════════════╮${CYAN}"
+echo -e "$CYAN╭═════════════════════ ${LIME}• ${LIME}BY${LIME}${LIME} • $CYAN══════════════════════╮${CYAN}"
 echo -e "$CYAN${NC}               ${LIME}     • JS TUNNELING •       $LIME $NC"
 echo -e "$CYAN╰═══════════════════════════════════════════════════╯${LIME}"
 echo -e ""
