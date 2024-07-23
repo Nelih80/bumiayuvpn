@@ -249,7 +249,7 @@ echo -e "   \e[1;36m_______________________________$NC"
 echo -e ""
 read -p "   INPUT YOUR DOMAIN :   " host1
 echo -e "   \e[1;32mPlease Enter Your Name $NC"
-read -p "   Masukan User Script 12 Karakter: " nama
+read -p "   Masukan User Script 15 Karakter: " nama
 echo "IP=" >> /var/lib/kyt/ipvps.conf
 echo $host1 > /etc/xray/domain
 echo $host1 > /root/domain
