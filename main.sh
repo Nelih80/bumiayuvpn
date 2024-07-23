@@ -28,7 +28,7 @@ clear
 clear && clear && clear
 clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "\033[96;1m               WELCOME TO SCRIPT JS TUNNELING                \033[0m"
+echo -e "\033[96;1m            WELCOME TO SCRIPT JABAR TUNNELING                \033[0m"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 3
@@ -271,7 +271,7 @@ EXPSC=$(wget -qO- https://raw.githubusercontent.com/Nelih80/bumiayuvpn/main/izin
 TIMEZONE=$(printf '%(%H:%M:%S)T')
 TEXT="
 <code>────────────────────</code>
-<b> 🟢 DONE SEWA AUTOSCRIPT 🟢</b>
+<b> 🟢 REGISTRASI IP SUKSES 🟢</b>
 <code>────────────────────</code>
 <code>ID     : </code><code>$USRSC</code>
 <code>Domain : </code><code>$domain</code>
