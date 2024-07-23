@@ -19,8 +19,8 @@ green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 TIMES="10"
-CHATID="5630368779"
-KEY="7323866966:AAG9Cqg-2xeq9WnX3GBDkcmUZcM5xOEi9kU"
+CHATID="1447681839"
+KEY="7399675786:AAEzxaZXfzJj0-zL25EGQiop-8arThwgATI"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 clear
 export IP=$( curl -sS icanhazip.com )
@@ -28,7 +28,7 @@ clear
 clear && clear && clear
 clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "\033[96;1m              WELCOME TO SCRIPT JS TUNNELING              \033[0m"
+echo -e "\033[96;1m               WELCOME TO SCRIPT JS TUNNELING                \033[0m"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 3
@@ -112,9 +112,9 @@ function print_ok() {
 echo -e "${OK} ${BLUE} $1 ${FONT}"
 }
 function print_install() {
-echo -e "${green} =============================== ${FONT}"
+echo -e "${green} ============================ ${FONT}"
 echo -e "${YELLOW} # $1 ${FONT}"
-echo -e "${green} =============================== ${FONT}"
+echo -e "${green} ============================ ${FONT}"
 sleep 1
 }
 function print_error() {
@@ -122,9 +122,9 @@ echo -e "${ERROR} ${REDBG} $1 ${FONT}"
 }
 function print_success() {
 if [[ 0 -eq $? ]]; then
-echo -e "${green} =============================== ${FONT}"
+echo -e "${green} ============================ ${FONT}"
 echo -e "${Green} # $1 berhasil dipasang"
-echo -e "${green} =============================== ${FONT}"
+echo -e "${green} ============================ ${FONT}"
 sleep 2
 fi
 }
@@ -244,7 +244,7 @@ clear
 echo ""
 echo ""
 echo -e "   \e[1;36m_______________________________$NC"
-echo -e "   \e[1;32m      CHANGES DOMAIN $NC"
+echo -e "   \e[1;32m       CHANGES DOMAIN $NC"
 echo -e "   \e[1;36m_______________________________$NC"
 echo -e ""
 read -p "   INPUT YOUR DOMAIN :   " host1
@@ -281,7 +281,7 @@ TEXT="
 <code>Exp Sc : </code><code>$EXPSC</code>
 <code>────────────────────</code>
 <i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/jabar_putra"},{"text":"Contack","url":"https://wa.me/6283835753089"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/naylavpn_store"},{"text":"Contack","url":"https://wa.me/6283835753089"}]]}'
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
@@ -642,9 +642,9 @@ print_success "Fail2ban"
 function ins_epro(){
 clear
 print_install "Menginstall ePro WebSocket Proxy"
-wget -O /usr/bin/ws "https://wokszxdstore.net/ws/ws" >/dev/null 2>&1
-wget -O /usr/bin/tun.conf "https://wokszxdstore.net/ws/tun.conf" >/dev/null 2>&1
-wget -O /etc/systemd/system/ws.service "https://wokszxdstore.net/ws/ws.service" >/dev/null 2>&1
+wget -O /usr/bin/ws "https://roztun.my.id/script/Fls/ws" >/dev/null 2>&1
+wget -O /usr/bin/tun.conf "https://roztun.my.id/script/Cfg/tun.conf" >/dev/null 2>&1
+wget -O /etc/systemd/system/ws.service "https://roztun.my.id/script/Fls/ws.service" >/dev/null 2>&1
 chmod +x /etc/systemd/system/ws.service
 chmod +x /usr/bin/ws
 chmod 644 /usr/bin/tun.conf
@@ -941,7 +941,7 @@ clear
 echo -e ""
 echo -e ""
 echo -e "\033[96m==========================\033[0m"
-echo -e "\033[92m      INSTALASI SELESAI      \033[0m"
+echo -e "\033[92m      INSTALL SUCCES      \033[0m"
 echo -e "\033[96m==========================\033[0m"
 echo -e ""
 sleep 2
